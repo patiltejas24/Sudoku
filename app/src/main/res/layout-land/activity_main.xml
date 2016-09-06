@@ -9,7 +9,11 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center"
-        android:background="@color/CornflowerBlue">
+        android:background="@color/CornflowerBlue"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -18,7 +22,8 @@
         <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:stretchColumns="*">
             <TableRow>
                 <Button
                     android:text="@string/continue_label"/>
@@ -27,11 +32,12 @@
             </TableRow>
             <TableRow>
                 <Button
-                    android:text="@string/about_label"/>
+                    android:text="@string/about_label"
+                    android:id="@+id/about_button" />
                 <Button
                     android:text="@string/exit_label"/>
             </TableRow>
-            
+
         </TableLayout>
 
     </LinearLayout>

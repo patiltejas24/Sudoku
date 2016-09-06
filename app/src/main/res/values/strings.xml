@@ -5,4 +5,11 @@
     <string name="about_label">About</string>
     <string name="new_game_label">New Game</string>
     <string name="exit_label">Exit</string>
+    <string name="about_content">
+        This is the about content
+        details link says : java.lang. NoSuchMethodError:
+        android.graphics. drawable.VectorDrawable_Delegate.
+        nCreateTreeFromCopy(JJ)J at android.graphics. drawable.
+        VectorDrawable. nCreateTreeFromCopy(VectorD
+    </string>
 </resources>
