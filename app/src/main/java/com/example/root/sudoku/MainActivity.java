@@ -18,15 +18,67 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         Button about_button =(Button) findViewById(R.id.about_button);
-        about_button.setOnClickListener(new OnClickListener()
-        {
-            @Override
-            public void onClick(View view)
-            {
-                Intent intent = new Intent(view.getContext(),about.class);
-                startActivityForResult(intent,0);
-            }
-        }
+        about_button.setOnClickListener(
+                new OnClickListener()
+
+                {
+                    @Override
+                    public void onClick(View view)
+                    {
+                        Intent intent = new Intent(view.getContext(),about.class);
+                        startActivityForResult(intent,0);
+                    }
+
+                }
         );
+
+        Button exit_button = (Button)findViewById(R.id.exit_button);
+                exit_button.setOnClickListener(
+                        new OnClickListener()
+                        {
+                            @Override
+                            public void onClick(View vie)
+                            {
+                                Intent intent2 =new Intent(findViewById(R.id.exit_button).getContext(),exit.class);
+                                startActivity(intent2);
+
+
+                            }
+                        }
+                );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

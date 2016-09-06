@@ -35,7 +35,8 @@
                     android:text="@string/about_label"
                     android:id="@+id/about_button" />
                 <Button
-                    android:text="@string/exit_label"/>
+                    android:text="@string/exit_label"
+                    android:id="@+id/exit_button" />
             </TableRow>
 
         </TableLayout>
